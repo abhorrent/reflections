@@ -32,3 +32,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 I don't see a easier part, perhaps not having to know about all the Git concepts...?
 It would be harded to keep track of who changed what (and when). Also, it would be harder to go back and fix bugs.
 Lastly, it will be harder to develop features in parallel.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+=====
+Changes in a separate branch can be made any time, even if it's a small bugfix. However, this means that later on the changes have to be merged.
+Sometimes there can be conflicts and they will require extra time to fix.
+Commiting on master will make it easier to avoid these conflicts.
