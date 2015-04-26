@@ -8,3 +8,12 @@ Why might you want to always pull changes manually rather than having Git automa
 =====
 Because it can be that the same files are modified on Github and locally, therefore there might be a merge conflict.
 It's true there might be a conflict in the future anyway, but this way we only have to deal with it once.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+=====
+A fork makes a new repository & makes a clone. A clone is a copy of a repository & it's history, while a branch is just a way to make isolate changes on a repo.
+It's a good idea to use a fork when you want to make changes to a repository that you don't have access rights to.
+A clone will be sufficient to make changes with the proper access rights. Sometimes you might want to make a clone just to run the code in a repo.
+A branch can be useful locally, when you want to add a new feature.
