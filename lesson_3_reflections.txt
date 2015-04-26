@@ -17,3 +17,10 @@ A fork makes a new repository & makes a clone. A clone is a copy of a repository
 It's a good idea to use a fork when you want to make changes to a repository that you don't have access rights to.
 A clone will be sufficient to make changes with the proper access rights. Sometimes you might want to make a clone just to run the code in a repo.
 A branch can be useful locally, when you want to add a new feature.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+=====
+We can pull changes locally without merging - for example if we are working on a certain feature that is not finished, we can wait for the merge until done.
+This can come in handy when we know we won't have a internet connection later.
