@@ -24,3 +24,11 @@ What is the benefit of having a copy of the last known state of the remote store
 =====
 We can pull changes locally without merging - for example if we are working on a certain feature that is not finished, we can wait for the merge until done.
 This can come in handy when we know we won't have a internet connection later.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+=====
+I don't see a easier part, perhaps not having to know about all the Git concepts...?
+It would be harded to keep track of who changed what (and when). Also, it would be harder to go back and fix bugs.
+Lastly, it will be harder to develop features in parallel.
